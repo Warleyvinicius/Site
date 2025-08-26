@@ -4,6 +4,41 @@ body{
     background-repeat: no-repeat;
 }
 
+
+.navbar-container {
+  display: flex;
+  align-items: center; 
+  gap: 20px; 
+}
+
+/* GitHub - preto */
+.navbar .navbar-brand {
+  color: #000 !important;
+  font-weight: 700;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 8px; 
+}
+
+.navbar .navbar-brand:hover {
+  color: #000 !important;
+}
+
+/* LinkedIn - azul */
+.navbar-linkedin {
+  color: #0A66C2 !important;
+  font-weight: 700;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.navbar-linkedin:hover {
+  color: #0A66C2 !important;
+}
+
 .header {
     background-color: rgba(0, 0, 0, 0);
     display: flex;
@@ -151,6 +186,7 @@ li{
 
 /* Media Queries */
 @media (max-width: 768px) {
+
     html,body{
         height: 100%;
         margin: 0;
@@ -163,7 +199,8 @@ li{
         background-position: center;
         background-attachment: fixed;
     }
-    
+
+
     .header {
         flex-direction: column;
         text-align: center;
@@ -191,11 +228,13 @@ li{
     .carousel-item img {
         max-height: 200px;
     }
-        #contact {
+    
+    #contact {
         margin-left: 0; 
         padding: 10px;
     }
-       #contact-info {
+
+    .contact-info {
         font-size: 17px;
         font-family: 'Times New Roman', Times, serif;
     }
@@ -206,7 +245,7 @@ li{
         margin: 10px auto; 
         display: block;
     }
-        #btn, #submit {
+    #btn, #submit {
         background-color: rgba(2, 4, 121, 0.8);
         color: white;
     }
@@ -218,6 +257,7 @@ li{
 }
 
 @media (max-width: 480px) {
+
     html,body{
         height: 100%;
         margin: 0;
@@ -230,6 +270,7 @@ li{
         background-position: center;
         background-attachment: fixed;
     }
+
     h1,h2, #gallery-title, #services-title, #project {
         font-size: 2.2rem;
         font-family: 'Times New Roman', Times, serif;
@@ -252,15 +293,15 @@ li{
     .carousel-item img {
         max-height: 150px;
     }
-    
     .contact-info {
         font-size: 17px;
         font-family: 'Times New Roman', Times, serif;
     }
-
-
+ 
 
 }
+
+
 
 
 
