@@ -169,7 +169,7 @@ li{
         text-align: center;
     }
 
-    h1, #gallery-title, #services-title, #project {
+    h1,h2, #gallery-title, #services-title, #project {
         font-size: 1.5rem;
         padding: 20px 10px;
     }
@@ -194,6 +194,10 @@ li{
         #contact {
         margin-left: 0; 
         padding: 10px;
+    }
+       #contact-info {
+        font-size: 17px;
+        font-family: 'Times New Roman', Times, serif;
     }
 
     #btn, #submit {
@@ -226,7 +230,7 @@ li{
         background-position: center;
         background-attachment: fixed;
     }
-    h1, #gallery-title, #services-title, #project {
+    h1,h2, #gallery-title, #services-title, #project {
         font-size: 2.2rem;
         font-family: 'Times New Roman', Times, serif;
 
@@ -248,7 +252,13 @@ li{
     .carousel-item img {
         max-height: 150px;
     }
+    
+    #contact-info {
+        font-size: 17px;
+        font-family: 'Times New Roman', Times, serif;
+    }
 
 }
+
 
 
