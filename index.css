@@ -1,0 +1,218 @@
+body{
+    background-image: url('gradient.jpg');
+    background-size:auto;
+    background-repeat: no-repeat;
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bi-code-slash {
+    color: rgba(201, 202, 219, 0.9);
+    margin-right: 10px;
+  
+}
+#main {
+    background-color: rgba(0, 0, 0, 0.185);
+    padding: 20px;
+}
+
+h1,#gallery-title{
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-family: cursive;
+ 
+}
+
+#description{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family:cursive;
+    font-style: italic;
+    font-size: 18px;
+
+}
+#services{
+    margin-left: 10px;
+}
+#services-title{
+    color: white;
+    font-family:cursive;
+    font-style: italic;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+li{
+    list-style-type: circle;
+    margin-bottom: 10px;
+    color: white;
+    font-family:cursive;
+    font-style: italic;
+}
+
+#project,#gallery-title{
+    color: white;
+    font-family:cursive;
+    font-style: italic;
+    margin-top: 40px;
+}
+
+.btn {
+    margin-top: 10px;
+    font-size: 15px;
+    background-color: transparent;
+    padding: 10px 20px;
+    border-radius: 80px;
+    cursor: pointer;
+}#btn:hover {
+    background-color: rgb(2, 4, 121);
+    color: rgba(245, 245, 245, 0.938);
+    text-shadow: white;
+}
+#btn:active {
+    box-shadow: 0 rgb(1, 4, 143);
+    transform: translateY(3px);
+}
+
+
+.carousel-item img {
+    object-fit: contain;
+    height: 300px;
+    width: auto;
+}
+
+#contact{
+    color: white;
+    font-family:cursive;
+    font-style: italic;
+    margin-top: 100px;
+    margin-left: 20px;
+   
+}
+#name_,#message_,
+#email_{
+    display: block;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+#name,#email{
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    width: 500px;
+}
+#message{
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    width: 560px;
+    height: 160px;
+}
+
+#submit {
+    display: block;
+    margin-top: 20px;
+    border-radius: 5px;
+    border-color: white;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+
+    box-shadow:0 5px rgba(255, 255, 255, 0.5);
+    transition: all 0.2s ease;
+
+}
+#submit:hover {
+    background-color: white;
+    color: black;
+}
+#submit:active {
+    box-shadow: 0 rgb(63, 46, 125);
+    transform: translateY(3px);
+}
+
+#contact-email {
+    color: white;
+    font-family: cursive;
+    font-style: italic;
+    margin-top: 40px;
+    float: right;
+}
+
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    h1, #gallery-title, #services-title, #project {
+        font-size: 1.5rem;
+        padding: 20px 10px;
+    }
+
+    #description {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    li {
+        font-size: 14px;
+    }
+
+    #main, #services, #gallery, #contact {
+        padding: 10px;
+    }
+
+    .carousel-item img {
+        max-height: 200px;
+    }
+        #contact {
+        margin-left: 0; 
+        padding: 10px;
+    }
+
+    #btn, #submit {
+        width: 90%;       
+        max-width: 300px; 
+        margin: 10px auto; 
+        display: block;
+    }
+        #btn, #submit {
+        background-color: rgba(2, 4, 121, 0.8);
+        color: white;
+    }
+
+    #btn:hover, #submit:hover {
+        background-color: rgb(2, 4, 121);
+        color: white;
+    }
+}
+
+@media (max-width: 480px) {
+    h1, #gallery-title, #services-title, #project {
+        font-size: 1.2rem;
+    }
+
+    #description {
+        font-size: 14px;
+    }
+
+    #name, #email, #message, #btn, #submit {
+        width: 100%;
+    }
+
+    .carousel-item img {
+        max-height: 150px;
+    }
+}
