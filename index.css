@@ -151,6 +151,19 @@ li{
 
 /* Media Queries */
 @media (max-width: 768px) {
+    html,body{
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-image: url('gradient.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    
     .header {
         flex-direction: column;
         text-align: center;
@@ -201,6 +214,18 @@ li{
 }
 
 @media (max-width: 480px) {
+    html,body{
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-image: url('gradient.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+    }
     h1, #gallery-title, #services-title, #project {
         font-size: 2.2rem;
         font-family: 'Times New Roman', Times, serif;
@@ -225,4 +250,5 @@ li{
     }
 
 }
+
 
