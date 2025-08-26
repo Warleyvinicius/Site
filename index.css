@@ -258,7 +258,14 @@ li{
         font-family: 'Times New Roman', Times, serif;
     }
 
+    @media screen and (max-height: 500px) and (orientation: landscape) {
+    body {
+        background-size: contain;
+        background-color: #000;  
+    }
+
 }
+
 
 
 
