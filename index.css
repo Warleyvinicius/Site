@@ -162,8 +162,9 @@ li{
     }
 
     #description {
-        font-size: 16px;
+        font-size: 20px;
         padding: 10px;
+        
     }
 
     li {
@@ -215,4 +216,5 @@ li{
     .carousel-item img {
         max-height: 150px;
     }
+
 }
