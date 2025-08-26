@@ -15,6 +15,7 @@ body{
 .navbar .navbar-brand {
   color: #000 !important;
   font-weight: 700;
+  font-size: 25px;
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -29,6 +30,7 @@ body{
 .navbar-linkedin {
   color: #0A66C2 !important;
   font-weight: 700;
+  font-size: 25px;
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -300,6 +302,7 @@ li{
  
 
 }
+
 
 
 
