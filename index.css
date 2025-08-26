@@ -253,12 +253,13 @@ li{
         max-height: 150px;
     }
     
-    #contact-info {
+    .contact-info {
         font-size: 17px;
         font-family: 'Times New Roman', Times, serif;
     }
 
 }
+
 
 
 
